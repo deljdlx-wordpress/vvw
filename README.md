@@ -1,4 +1,4 @@
-# frontend
+# vvw : vuejs vuetify wordpress front
 
 ## Project setup
 ```
