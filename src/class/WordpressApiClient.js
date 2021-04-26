@@ -8,7 +8,7 @@ export default class WordpressApiClient extends Client {
 
   constructor(configuration) {
     super(configuration);
-    this.wordpressURL = 'http://localhost/deploy-wordpress-sample2/public';
+    this.wordpressURL = this.configuration.wordpressURL;
   }
 
 

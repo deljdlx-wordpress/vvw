@@ -17,10 +17,11 @@
         <v-col cols="1">
             <v-btn
                 elevation="2"
+                :color="backgroundColor.hexa"
             >🚀</v-btn>
         </v-col>
 
-        <v-col sm="6" md="2" lg="1" class="col">
+        <v-col sm="6" md="2" lg="1" class="col" :style="'background-color:' + backgroundColor.hexa">
             <v-img
                 :src="require('../assets/logo.svg')"
                 class="my-3"
