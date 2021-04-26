@@ -6,7 +6,13 @@ import router from "./plugins/router"
 import store from "./plugins/vuex"
 
 
+import wordpressApiClient from './plugins/wordpressApi';
+
+
 Vue.config.productionTip = false
+
+Vue.prototype.$wordpressApiClient = wordpressApiClient;
+
 
 new Vue({
   vuetify,

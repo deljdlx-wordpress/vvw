@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import HomeDemo from "../views/HomeDemo";
+import WordpressDemo from "../views/WordpressDemo";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const vueRouter = new VueRouter({
       name: 'home',
       path: '/',
       component: HomeDemo
+    },
+    {
+      name: 'wordpress',
+      path: '/wordpress',
+      component: WordpressDemo
     },
   ]
 });

@@ -1,15 +1,16 @@
 <template>
   <v-container>
-    <v-row :style="'background-color:' + backgroundColor.hexa">
+    <v-row>
 
-        <v-col cols="12">
+        <v-col cols="12" :style="'background-color:' + backgroundColor.hexa">
             <h2>Vuetify misc components</h2>
         </v-col>
 
 
         <v-col cols="1">
             <v-progress-circular
-            indeterminate
+                indeterminate
+                :color="backgroundColor.hexa"
             ></v-progress-circular>
         </v-col>
 
@@ -30,8 +31,8 @@
 
         <v-col sm="6" md="4" lg="3" class="col">
             <v-rating
-                value="3"
-                :background-color="backgroundColor.hexa"
+                :value="3"
+                :color="backgroundColor.hexa"
                 large
             ></v-rating>
         </v-col>
@@ -47,7 +48,10 @@
 
 
         <v-col sm="12" md="5" lg="4" class="col">
-            <v-date-picker v-model="picker"></v-date-picker>
+            <v-date-picker
+                :color="backgroundColor.hexa"
+            >
+            </v-date-picker>
         </v-col>
 
         <v-col sm="12" md="5" lg="4" class="col">

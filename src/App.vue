@@ -19,6 +19,10 @@ import Footer from "./components/demo/Footer";
 export default {
   name: 'App',
 
+  created() {
+    console.log(this.$wordpressApiClient);
+  },
+
   components: {
     Header,
     Footer

@@ -21,7 +21,7 @@
         class="primary lighten-2 py-4 text-center white--text"
         cols="12"
       >
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Woof</strong>
       </v-col>
     </v-row>
   </v-footer>
@@ -32,12 +32,12 @@ export default ({
     data() {
         return {
             links: [
-                'Home',
-                'About Us',
-                'Team',
-                'Services',
-                'Blog',
-                'Contact Us',
+                'fake0',
+                'fake1',
+                'fake2',
+                'fake3',
+                'fake4',
+                'fake5',
             ],
         };
     },

@@ -1,14 +1,14 @@
 console.log('%c' + 'User service loaded', 'color: #0bf; font-size: 1rem; background-color:#fff');
 
 import axios from 'axios';
-import Storage from 'Storage';
+import Storage from './Storage';
 
 export default class Client
 {
   configuration;
   storage;
 
-  constructor() {
+  constructor(configuration) {
     this.configuration = configuration;
     this.storage = new Storage();
   }
