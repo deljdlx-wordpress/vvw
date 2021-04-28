@@ -23,6 +23,6 @@ pnpm-debug.log*
 *.sw?
 
 
-# src/_configuration
-# !src/_configuration/DevelopmentSample.js
+/_configuration
+!/_configuration/Current.sample.js
 
